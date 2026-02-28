@@ -1,4 +1,4 @@
-#  YRCars  
+# YRCars  
 
 Machine Learning system that identifies car model from a photograph.
 
@@ -7,35 +7,40 @@ Powered by three EfficientNetB3 deep learning models trained on different datase
 
 ---
 
-##  Live
-
-https://ml-cars-iota.vercel.app/
+<img src="https://github.com/user-attachments/assets/f289904f-0248-44fc-97a5-4ed98a1ef637" width="700" />
 
 ---
 
-##  Tech Stack
+## Live Application
 
-###  Machine Learning
+**Try the application here:**  
+[https://ml-cars-iota.vercel.app/](https://ml-cars-iota.vercel.app/)
+
+---
+
+## Tech Stack
+
+### Machine Learning
 - PyTorch  
 - EfficientNetB3 (Transfer Learning)  
 - Multi-model ensemble approach  
 
-###  Backend
+### Backend
 - FastAPI  
 - Python 3.10  
 
-###  Frontend
-- React
+### Frontend
+- React  
 - Vite  
 - Framer Motion  
 
-###  Deployment
+### Deployment
 - Railway (Backend)  
 - Vercel (Frontend)  
 
 ---
 
-##  How It Works
+## How It Works
 
 When a user uploads a car image:
 
@@ -60,13 +65,12 @@ All models are based on EfficientNetB3 using transfer learning and fine-tuning.
 
 ---
 
-
-## 🛡️ License
+## License
 
 MIT License  
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 @yessetkrodriguez
