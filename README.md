@@ -1,8 +1,17 @@
 # YRCars  
 
-Machine Learning system that identifies car model from a photograph.
+AI-powered system that identifies a car model from a photograph and generates a detailed description of the detected vehicle.
 
-Upload an image of a car and receive ranked predictions with confidence scores.  
+Upload an image of a car and receive ranked predictions with confidence scores, along with an AI-generated description based on the detected model.
+
+This project combines:
+
+- **Machine Learning** — The general framework where models learn from data.
+- **Deep Learning** — EfficientNetB3 (a deep neural network with millions of parameters) is used for image classification.
+- **Generative AI** — A Large Language Model (LLM) generates original, detailed vehicle descriptions based on the predicted label from the classifier.
+
+The system does not retrieve descriptions from a database. Instead, it uses Generative AI to create new, original content dynamically based on the classification result.
+
 Powered by three EfficientNetB3 deep learning models trained on different datasets.
 
 ---
