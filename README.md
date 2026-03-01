@@ -26,15 +26,15 @@ Powered by three EfficientNetB3 deep learning models trained on different datase
   </tr>
 </table>
 
-
 ---
 
 ## Live Application
 
 **Try the application here:**  
-[https://ml-cars-iota.vercel.app/](https://ml-cars-iota.vercel.app/)
+https://ml-cars-iota.vercel.app/
 
 ---
+
 ## How It Works
 
 When a user uploads a car image:
@@ -44,21 +44,42 @@ When a user uploads a car image:
    - **Stanford Cars Model**  
      - 196 classes  
      - Predicts: make + model + body type + year  
+     - Includes vehicles manufactured between **1991 and 2012**
    - **Custom Dataset Model**  
      - 48 classes  
    - **Dataset Brand Classifier**  
      - 33 car brands  
+     - Includes some more recent models (limited samples) such as Toyota, Ferrari, and other modern brands
 3. Predictions are combined.
 4. Results are ranked by confidence.
 5. The Top 5 predictions are returned.
 
+The Stanford Cars dataset mainly contains vehicles from **1991–2012**, while the brand classifier helps detect more updated vehicles, although in smaller quantities per brand.
+
 This ensemble-style architecture improves robustness and prediction reliability.
+
 ---
+
+## Infrastructure Constraints
+
+Due to using the **Render Free Plan**, deployment resources are limited (RAM and disk size).  
+
+Because of this:
+
+- Some datasets had to be compressed.
+- Model sizes were optimized.
+- Larger architectures were avoided.
+- Batch sizes were adjusted during inference.
+
+These optimizations ensure the system runs reliably within free-tier constraints while maintaining strong prediction performance.
+
+---
+
 ## Tech Stack
 
 ### Machine Learning
 - PyTorch  
-- EfficientNetB3 (Transfer Learning)  
+- EfficientNetB3 (Transfer Learning & Fine-Tuning)  
 - Multi-model ensemble approach  
 
 ### Backend
@@ -71,15 +92,9 @@ This ensemble-style architecture improves robustness and prediction reliability.
 - Framer Motion  
 
 ### Deployment
-- Railway (Backend)  
+- Render (Backend - Free Plan)  
 - Vercel (Frontend)  
 
 ---
 
 All models are based on EfficientNetB3 using transfer learning and fine-tuning.
-
----
-## License
-MIT License  
-## Author
-@yessetkrodriguez
