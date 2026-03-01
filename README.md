@@ -7,7 +7,25 @@ Powered by three EfficientNetB3 deep learning models trained on different datase
 
 ---
 
-<img src="https://github.com/user-attachments/assets/f289904f-0248-44fc-97a5-4ed98a1ef637" width="700" />
+<table>
+  <tr>
+    <td align="left" width="50%">
+      <img
+        src="https://github.com/user-attachments/assets/f289904f-0248-44fc-97a5-4ed98a1ef637"
+        alt="System interface preview"
+        width="90%"
+      />
+    </td>
+    <td align="right" width="50%">
+      <img
+        src="https://github.com/user-attachments/assets/22d6d0b8-0900-431e-b99b-6f7cf74ca565"
+        alt="Application dashboard view"
+        width="90%"
+      />
+    </td>
+  </tr>
+</table>
+
 
 ---
 
