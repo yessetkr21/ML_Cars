@@ -3,11 +3,7 @@
 > ⚠️ **Important Notice About Model Limitations**
 >
 > This project is deployed using the **Render Free Plan**, which imposes strict limitations on RAM, disk space, and processing power.
->
 > Because of these constraints, the trained Machine Learning models may occasionally present inaccuracies, slower inference times, or reduced robustness compared to a fully scaled production deployment.
->
-> The free-tier infrastructure limits the size of the datasets and model architectures that can be deployed, which may affect overall prediction performance.
-
 ---
 
 AI-powered system that identifies a car model from a photograph and generates a detailed description of the detected vehicle.
