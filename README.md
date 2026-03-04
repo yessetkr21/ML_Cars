@@ -1,11 +1,4 @@
 # YRCars  
-
-> ⚠️ **Important Notice About Model Limitations**
->
-> This project is deployed using the **Render Free Plan**, which imposes strict limitations on RAM, disk space, and processing power.
-> Because of these constraints, the trained Machine Learning models may occasionally present inaccuracies, slower inference times, or reduced robustness compared to a fully scaled production deployment.
----
-
 AI-powered system that identifies a car model from a photograph and generates a detailed description of the detected vehicle.
 
 Upload an image of a car and receive ranked predictions with confidence scores, along with an AI-generated description based on the detected model.
@@ -41,6 +34,12 @@ Powered by three EfficientNetB3 deep learning models trained on different datase
   </tr>
 </table>
 
+---
+
+> ⚠️ **Important Notice About Model Limitations**
+>
+> This project is deployed using the **Render Free Plan**, which imposes strict limitations on RAM, disk space, and processing power.
+> Because of these constraints, the trained Machine Learning models may occasionally present inaccuracies, slower inference times, or reduced robustness compared to a fully scaled production deployment.
 ---
 
 ## Live Application
@@ -89,6 +88,7 @@ Because of this:
 These optimizations ensure the system runs reliably within free-tier constraints while maintaining strong prediction performance.
 
 ---
+
 
 ## Tech Stack
 
