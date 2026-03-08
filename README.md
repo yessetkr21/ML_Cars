@@ -26,7 +26,7 @@ Powered by three EfficientNetB3 deep learning models trained on different datase
     </td>
     <td align="right" width="50%">
       <img
-        src="https://github.com/user-attachments/assets/22d6d0b8-0900-431e-b99b-6f7cf74ca565"
+        src="https://github.com/user-attachments/assets/a2ce4aa0-27e0-4a13-9e5b-37f69a064106"
         alt="Application dashboard view"
         width="90%"
       />
